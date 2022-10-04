@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		0F51F45F28E479BA0009EDFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F51F45E28E479BA0009EDFD /* AppDelegate.swift */; };
 		0F51F46128E479BA0009EDFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F51F46028E479BA0009EDFD /* SceneDelegate.swift */; };
-		0F51F46328E479BA0009EDFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F51F46228E479BA0009EDFD /* ViewController.swift */; };
+		0F51F46328E479BA0009EDFD /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F51F46228E479BA0009EDFD /* MapsViewController.swift */; };
 		0F51F46628E479BA0009EDFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F51F46428E479BA0009EDFD /* Main.storyboard */; };
 		0F51F46928E479BA0009EDFD /* HaritalarApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F51F46728E479BA0009EDFD /* HaritalarApp.xcdatamodeld */; };
 		0F51F46B28E479BD0009EDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F51F46A28E479BD0009EDFD /* Assets.xcassets */; };
 		0F51F46E28E479BD0009EDFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F51F46C28E479BD0009EDFD /* LaunchScreen.storyboard */; };
+		0FF9637828EA50C9009B2E72 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF9637728EA50C9009B2E72 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F51F45B28E479BA0009EDFD /* HaritalarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaritalarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F51F45E28E479BA0009EDFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F51F46028E479BA0009EDFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F51F46228E479BA0009EDFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F51F46228E479BA0009EDFD /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		0F51F46528E479BA0009EDFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F51F46828E479BA0009EDFD /* HaritalarApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HaritalarApp.xcdatamodel; sourceTree = "<group>"; };
 		0F51F46A28E479BD0009EDFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F51F46D28E479BD0009EDFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F51F46F28E479BD0009EDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF9637728EA50C9009B2E72 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				0F51F45E28E479BA0009EDFD /* AppDelegate.swift */,
 				0F51F46028E479BA0009EDFD /* SceneDelegate.swift */,
-				0F51F46228E479BA0009EDFD /* ViewController.swift */,
+				0F51F46228E479BA0009EDFD /* MapsViewController.swift */,
 				0F51F46428E479BA0009EDFD /* Main.storyboard */,
 				0F51F46A28E479BD0009EDFD /* Assets.xcassets */,
 				0F51F46C28E479BD0009EDFD /* LaunchScreen.storyboard */,
 				0F51F46F28E479BD0009EDFD /* Info.plist */,
 				0F51F46728E479BA0009EDFD /* HaritalarApp.xcdatamodeld */,
+				0FF9637728EA50C9009B2E72 /* ListViewController.swift */,
 			);
 			path = HaritalarApp;
 			sourceTree = "<group>";
@@ -141,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F51F46328E479BA0009EDFD /* ViewController.swift in Sources */,
+				0F51F46328E479BA0009EDFD /* MapsViewController.swift in Sources */,
 				0F51F45F28E479BA0009EDFD /* AppDelegate.swift in Sources */,
 				0F51F46928E479BA0009EDFD /* HaritalarApp.xcdatamodeld in Sources */,
+				0FF9637828EA50C9009B2E72 /* ListViewController.swift in Sources */,
 				0F51F46128E479BA0009EDFD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
